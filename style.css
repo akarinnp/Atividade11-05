@@ -1,0 +1,68 @@
+header{
+
+    min-height: 70vh;
+    background-image: url(https://picsum.photos/1800/600?grayscale);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1{
+    margin: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;/* eixo x */
+    align-items: center; /* eixo y */
+    text-align: left;
+}
+
+h2{
+    margin: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content:left;/* eixo x */
+    align-items: center; /* eixo y */
+    text-align: left;
+    
+
+}
+.text{
+    text-align: justify;
+}
+
+.margin{
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width:900px){
+    .imagem_3{
+        display: none;
+    }
+
+    .image_2{
+        width: 200px;
+    }
+
+    .imagem_3{
+        width: 200px;
+    }
+
+    .imagem_4{
+        width: 460px;
+    }
+
+    .imagem_5{
+        width: 460px;
+        height:420px;
+    }
+
+    .imagem_6, .imagem_7, .imagem_8 {
+        display: none;
+    }
+    .text{
+        font-size:13px
+    }
+}
+
